@@ -1,0 +1,2 @@
+I have to write a program that reads the contents of each text file in the directory and should removes punctuation and numbers, and store the resulting words in a set. It should also reads a file called "exclude-words.txt" which contains words to be excluded from the index, and remove these words from the set. Finally, the program should write the remaining words in the set to a file called "index.txt" in alphabetical order.
+
