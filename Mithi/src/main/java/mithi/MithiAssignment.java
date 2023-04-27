@@ -138,8 +138,8 @@ public class MithiAssignment {
 
 		File location = new File("C:\\Users\\wellcome\\OneDrive\\Desktop\\Internshala\\index.txt");
 
-		try {
-			BufferedWriter bw = new BufferedWriter(new FileWriter(location));
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(location)))
+		{
 			bw.write("Word : Page Numbers");
 			bw.newLine();
 			bw.write("-------------------");
